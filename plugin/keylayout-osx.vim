@@ -8,7 +8,7 @@ if exists('g:keylayout')
     finish
 endif
 
-set ttimeoutlen=50
+set ttimeoutlen=10
 
 if (has("win32") || has("win95") || has("win64") || has("win16"))
     " Windows 下不载入
